@@ -23,6 +23,6 @@ ENV APP_CMD="cd /app && ruby bin/rails server --binding 0.0.0.0 --port 3000"
 # 如有上传文件等操作请务必将权限设置正确！
 # RUN chown app:app /app/uploads/
 # 如需静态 FLAG 请在此利用环境变量声明
-# ENV FLAG=flag{flag_test}
+# ENV DASFLAG=DASCTF{flag_test}
 # 请声明对外暴露端口
 EXPOSE 3000
